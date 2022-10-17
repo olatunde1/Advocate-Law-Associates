@@ -4,6 +4,7 @@ import NavbarContent from './Components/Navbar/NavbarContent';
 import CallNow from './Components/Navbar/CallNow';
 import WhatWeDo from './Components/Navbar/WhatWeDo';
 import ClientsFeedback from './Components/Navbar/ClientsFeedback';
+import Footer from './Components/Navbar/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <NavbarContent/>
       <WhatWeDo />
       <ClientsFeedback />
+      <Footer />
       </>
     </div>
   );

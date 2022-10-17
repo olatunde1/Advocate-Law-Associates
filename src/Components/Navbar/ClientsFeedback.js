@@ -1,5 +1,6 @@
 import React from "react";
 import exclamation from '../../Images/exclamation.png';
+import exclamation2 from '../../Images/exclamtion2.png';
 
 export default function ClientsFeedback(){
     return(
@@ -9,20 +10,20 @@ export default function ClientsFeedback(){
                 <p className=" pb-[58px] font-[Poppins] text-2xl">Why you should hire us</p>
             </div>
             <div className="lg:flex ">
-                <div className=" text-center items-center w-[376px] h-[455px] bg-white mr-[90px] pr-[74px] pl-[51px] pt-[14px] pb-[29px]">
-                    <img className=' w-14 h-14' src={exclamation} />
-                    <p className="">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                    <p>-Hannah Oscar</p>
+                <div className=" items-center w-[376px] h-[455px] bg-white mr-[46px] border-b-4 border-primary">
+                    <img className=' w-7 h-7 mt-[44px] mb-8 ml-[150px] mr-[192px] ' src={exclamation2} />
+                    <p className=" pl-[51px] pr-[74px] font-[libre] text-xl">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
+                    <p className="pt-[73px] font-[poor story]">-Hannah Oscar</p>
                 </div>
-                <div>
-                    <img className=' w-14 h-14' src={exclamation} />
-                    <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                    <p>-Ehpraim Isaiah</p>
+                <div className=" items-center w-[376px] h-[455px] bg-white mr-[46px] border-b-4 border-primary">
+                    <img className=' w-7 h-7 mt-[44px] mb-8 ml-[150px] mr-[192px] ' src={exclamation2} />
+                    <p className=" pl-[51px] pr-[74px] font-[libre] text-xl">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
+                    <p className="pt-[73px] font-[poor story]">-Ehpraim Isaiah</p>
                 </div>
-                <div>
-                    <img className=' w-14 h-14' src={exclamation} />
-                    <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
-                    <p>-Glory Eromosele</p>
+                <div className=" items-center w-[376px] h-[455px] bg-white border-b-4 border-primary">
+                    <img className=' w-7 h-7 mt-[44px] mb-8 ml-[150px] mr-[192px] ' src={exclamation2} />
+                    <p className=" pl-[51px] pr-[74px] font-[libre] text-xl">Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.</p>
+                    <p className="pt-[73px] font-[poor story]">-Glory Eromosele</p>
                 </div>
               
             </div>
