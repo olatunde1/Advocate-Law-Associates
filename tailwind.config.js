@@ -7,6 +7,7 @@ module.exports = {
       'white': '#ffffff',
       'primary': '#AD7F62',
       'call': '#283C61',
+      'about': '3A3A3A',
     },
     extend: {
       backgroundImage: {

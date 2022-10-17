@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import logo2 from '../../../src/logo2.png';
+import '../../index.css';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 
 export default function Navbar() {
 
   const [open,setOpen] = useState(false);
- 
+  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+  const FadeUp = batch(Fade(), Move(), Sticky());
+
   return (
    <>
-    <div className="bg-[url('Images/background.png')] w-auto h-auto relative  ">
-      <nav className=" p-5 shadow md:flex md:items-center md:justify-between ">
+      
+        <div className="bg-[url('Images/background.png')] w-auto h-auto relative  ">
+      <nav className=" p-5 shadow md:flex md:items-center md:justify-between">
           <div className='flex justify-between items-center'>
               <span className=' flex items-center  text-2xl font-[Poppins] cursor-pointer hover:text-cyan-900' >
                   <img className=' w-18 h-18' src={logo2} alt="logo" />
@@ -46,7 +51,7 @@ export default function Navbar() {
       <div className='text-white'>
         <h2 className=' text-5xl text-center font-[libre] pt-64 pb-7'>Excellent, Trusted and Full Representation <br /> For Every Client</h2>
         <p className='text-center font-[libre] pb-14'>We take pride in helping people from all walks of life achieve <br /> the justice and peace they deserve.</p>
-        <div className='text-center font-[libre] pb-44' >
+        <div className='text-center font-[libre] pb-72' >
           <button className='bg-transparent border-2 hover:bg-primary hover:border-transparent py-4 px-4 mr-9 rounded-3xl transition-all  duration-500 ease-in'>Free Consultation</button>
           <button className=' bg-transparent border-2  hover:bg-primary hover:border-transparent py-4 px-8 rounded-3xl transition-all  duration-500 ease-in' >Learn More</button>
         </div>
