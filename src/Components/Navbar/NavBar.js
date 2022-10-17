@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
    <>
       
-        <div className="bg-[url('Images/background.png')] w-auto h-auto relative  ">
+    <div className="bg-[url('Images/background.png')] w-auto h-auto relative  ">
       <nav className=" p-5 shadow md:flex md:items-center md:justify-between">
           <div className='flex justify-between items-center'>
               <span className=' flex items-center  text-2xl font-[Poppins] cursor-pointer hover:text-cyan-900' >

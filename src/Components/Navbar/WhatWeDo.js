@@ -1,4 +1,5 @@
 import React from "react";
+import 'boxicons'
 import hammer from '../../Images/judge-hammer.png'
 import balance from '../../Images/balance.png'
 import judge from '../../Images/judge.png'
@@ -15,7 +16,7 @@ export default function WhatWeDo() {
             </div>
             <div className='md:flex md:items-center md:justify-between mx-40 mb-4 pt-20'>
                 <div className='flex w-96 h-60 border-b-4 border-primary bg-card px-6 py-12 mx-2'>
-                    <img className=' w-14 h-14 mr-4' src={hammer} />
+                    <img className=' w-14 h-14 mr-4 bx-fade-up bx-fade-down' src={hammer} />
                     <div>
                     <p className='text-xl text-white pb-5 text-left font-[inter]'>Marriage and Divorce</p>
                     <p className='text-white text-left font-[libre]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin netus curabitur massa nisl proin cras. </p>
@@ -29,7 +30,7 @@ export default function WhatWeDo() {
                     </div>
                 </div>
                 <div className='flex w-96 h-60 border-b-4 border-primary bg-card px-6 py-12 mx-2'>
-                    <img className=' w-14 h-14 mr-4' src={balance} />
+                    <img className=' w-14 h-14 mr-4 bx-tada'  src={balance} />
                     <div>
                     <p className='text-xl text-white pb-5 text-left font-[inter]'>Bribery Law</p>
                     <p className='text-white text-left font-[libre]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin netus curabitur massa nisl proin cras. </p>
@@ -45,7 +46,7 @@ export default function WhatWeDo() {
                     </div>
                 </div>
                 <div className='flex w-96 h-60 border-b-4 border-primary bg-card px-6 py-12 mx-2'>
-                    <img className=' w-14 h-14 mr-4' src={judge} />
+                    <img className=' w-14 h-14 mr-4 bx-burst' src={judge} />
                     <div>
                     <p className='text-xl text-white pb-5 text-left font-[inter]'>Auction Law</p>
                     <p className='text-white text-left font-[libre]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin netus curabitur massa nisl proin cras. </p>
