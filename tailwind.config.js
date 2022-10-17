@@ -8,6 +8,8 @@ module.exports = {
       'primary': '#AD7F62',
       'call': '#283C61',
       'about': '3A3A3A',
+      'card': '#304771',
+      'services': '#F2F6FC',
     },
     extend: {
       backgroundImage: {
