@@ -1,8 +1,9 @@
 import React from 'react'
+import 'boxicons'
 import hammer from '../../Images/judge-hammer.png'
 import balance from '../../Images/balance.png'
 import judge from '../../Images/judge.png'
-import babyLawyer from '../../Images/babyLawyer.png';
+import babyLawyer from '../../Images/babyLawyer.png'
 import '../../index.css';
 
 export default function NavbarContent() {
@@ -11,7 +12,7 @@ export default function NavbarContent() {
       <div className='wrapper relative'>
         <div className='md:flex md:items-center md:justify-between absolute mx-40 mb-12 -top-72'>
           <div className='flex w-80 h-60 border-b-4 border-primary bg-call px-8 py-12 mx-2'>
-            <img className=' w-14 h-14 mr-4' src={hammer} />
+            <img className=' w-14 h-14 mr-4 bx-flashing' src={hammer} />
             <div>
               <p className='text-xl text-white pb-5'>100% Success rate</p>
               <p className='text-white'>All the Lorum Ipsum generator on the internet tend to repeat predefined chunks</p>
@@ -25,7 +26,7 @@ export default function NavbarContent() {
             </div>
           </div>
           <div className='flex w-80 h-60 border-b-4 border-primary  bg-call px-8 py-12 mx-2'>
-            <img className=' w-14 h-14 mr-4' src={balance} />
+            <img className=' w-14 h-14 mr-4 bx-burst' src={balance} />
             <div>
               <p className='text-xl text-white pb-5'>Clients Satisfaction</p>
               <p className='text-white'>All the Lorum Ipsum generator on the internet tend to repeat predefined chunks</p>
@@ -33,7 +34,7 @@ export default function NavbarContent() {
           </div>
         </div>
         <section className='md:flex mt-32 pt-32 mb-16'>
-          <img className=' w-2/4 h-3/4 ml-44 mr-12' src={babyLawyer} alt='law'/>
+          <img className=' w-2/4 h-3/4 ml-44 mr-12 bx-burst-hover' src={babyLawyer} alt='law'/>
           <div className=' w-3/5 mr-12 font-[libre]'>
             <p className=' text-about pr-2 text-2xl font-bold mb-5'>About Us</p>
             <h2 className=' text-about pr-2 text-4xl font-extrabold mb-9'>Welcome to Advocate Law Associates</h2>
