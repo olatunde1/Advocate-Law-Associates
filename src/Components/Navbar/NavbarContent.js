@@ -34,7 +34,7 @@ export default function NavbarContent() {
           </div>
         </div>
         <section className='md:flex mt-32 pt-32 mb-16'>
-          <img className=' w-2/4 h-3/4 ml-44 mr-12 bx-burst-hover' src={babyLawyer} alt='law'/>
+          <img className=' w-2/4 h-3/4 ml-44 mr-12 ' src={babyLawyer} alt='law'/>
           <div className=' w-3/5 mr-12 font-[libre]'>
             <p className=' text-about pr-2 text-2xl font-bold mb-5'>About Us</p>
             <h2 className=' text-about pr-2 text-4xl font-extrabold mb-9'>Welcome to Advocate Law Associates</h2>

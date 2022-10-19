@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import logo2 from '../../../src/logo2.png';
-import '../../index.css';
+import logo2 from '../../../src/logo2.png'
+import '../../../src/index.css'
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 

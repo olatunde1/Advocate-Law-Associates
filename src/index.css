@@ -6,3 +6,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+.contact ion-icon {
+    color: #AD7F62 !important;
+    height: 1.5rem;
+    width: 1.5rem;  
+}
+
+.contact .locate ion-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.follow-us ion-icon {
+    color: #1D9BF0;
+    height: 1.5rem;
+    width: 1.5rem;  
+}
+
+.follow-us i{
+    color: #1977F3;
+    background-color: #ffffff;
+   
+}
+p{
+    font-family: Poppins;
+}
